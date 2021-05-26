@@ -22,7 +22,7 @@ endif
 
 function! LoadTemplate(tpl_file)
 
-python << EOF
+python3 << EOF
 
 import vim
 import os
